@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+ max-width: 100%;
+min-height: 100vh;
+  padding: 10px;
+  background: linear-gradient(135deg, #FB7185, #F97316);
+}
+
+.todo{
+    max-width: 600px;
+    min-height: 250px;
+    margin:  60px auto;
+    border-radius: 25px;
+    background-color: #ffffffe0;
+     box-shadow: 0 12px 20px rgba(176, 222, 222, 0.12);
+    
+}
+
+ .todo h2{
+    color: rgb(241, 118, 10);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 20px;
+    transform: translateY(13px);
+}
+
+h2 img {
+    display: flex;
+    align-items: center;
+    width: 50px;
+    margin: 10px ;
+    position: relative;
+}
+.inputBox{
+    display: flex;
+    align-items: center;
+}
+input {
+    flex-grow:1 ;
+    margin: 13px 20px ;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius:10px ;
+    background: #fff;
+}
+ button {
+    color: #fff;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: #fd6c37;
+    padding: 6px;
+    right: 30px;
+    cursor: pointer;
+    
+ }
+.inputBox button {
+  padding: 10px 35px ;
+  outline: none;
+  border: none;
+  margin-right: 30px;
+  border-radius: 10px;
+  transition:  box-shadow 0.3s ease,transform 0.25s ease;
+}
+.inputBox button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 15px rgba(253, 108, 55, 0.6);
+}
+ ul li {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 60%;
+    border: 1px solid #fd6c37;
+    border-radius: 20px;
+     list-style: none;    
+     position: relative;
+     cursor: pointer;
+     padding: 10px  20px 30px 40px;
+     margin: 10px 50px  20px;
+     box-shadow: 0  0 15px rgba(234, 132, 95, 0.6);
+     font-weight: bold;
+}
+
+ul li::before {
+    content:'';
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-image: url(images/download\ \(3\).png);
+    background-size: cover;
+    border: 1px solid #fd6c37;
+    top: 50%;
+     left: 8px;
+     transform: translateY(-50%);
+     border-radius:50% ;
+     
+   
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    
+}
+
+.filters button {
+    border-radius: 10px;
+    padding: 6px 20px;
+    transform: translateY(-45%);
+    outline: none;
+    border: none;
+    border: 1px solid transparent;
+    transition: box-shadow 0.3s ease, transform 0.25s ease-in-out;
+}
+.filters button:hover{
+   box-shadow: 0 0 15px rgba(253, 108, 55, 0.6);
+   transform: translateY(-10px);
+}
