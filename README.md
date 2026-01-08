@@ -1,34 +1,27 @@
-# 📝 To-Do App (Clean UI)
+# Simple Todo App
 
-A clean and responsive **To-Do List web application** built using **HTML, CSS, and JavaScript**.  
-This project focuses on a modern UI design with smooth interactions while keeping the logic simple and beginner-friendly.
-
----
-
-## ✨ Features
-
-- ➕ Add new tasks
-- 📋 Display all tasks in a clean list
-- 🎨 Modern gradient background
-- 🧊 Card-style container with smooth shadows
-- ✨ Hover animations for buttons
-- 🔍 Filter tasks:
-  - All
-  - Completed
-  - Pending
-- 📱 Responsive design (works on all screen sizes)
+A lightweight **Todo List Web Application** built with **HTML, CSS, and JavaScript**.  
+This app allows users to add tasks, mark them as completed, delete tasks, and save them in **localStorage** so tasks persist on page reload.
 
 ---
 
-## 🛠️ Tech Stack
+## Features
 
-- **HTML5** – Structure  
-- **CSS3** – Styling & animations  
-- **JavaScript (Vanilla JS)** – App logic  
-
-No frameworks, no libraries — pure fundamentals.
+- **Add Tasks:** Enter a task in the input box and click the "Add" button.
+- **Mark as Completed:** Click on a task to toggle its completed state (underline style).
+- **Delete Tasks:** Click the trash icon 🗑️ to remove a task.
+- **Persistent Storage:** Tasks are automatically saved in **localStorage** and restored on page reload.
 
 ---
 
-## 📂 Project Structure
+## How to Use
+
+1. Open `index.html` in a browser.
+2. Type your task in the input field and click **Add**.
+3. Click on the task text to mark it as completed or incomplete.
+4. Click the trash icon 🗑️ to delete the task.
+5. Your tasks will remain even after refreshing the page.
+
+---
+
 
