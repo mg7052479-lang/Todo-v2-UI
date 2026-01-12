@@ -22,6 +22,6 @@ This app allows users to add tasks, mark them as completed, delete tasks, and sa
 4. Click the trash icon 🗑️ to delete the task.
 5. Your tasks will remain even after refreshing the page.
 
----
+--
 
 
